@@ -7,4 +7,4 @@ Personal linktree page using Tailwind CSS.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)</a>
 
 ## Preview screenshot
-![](https://github.com/amariliodeoliveira/tailwindcss-linktree/src/assets/img/previewScreenshot.jpg)
+![](https://github.com/amariliodeoliveira/tailwindcss-linktree/blob/main/src/assets/img/previewScreenshot.jpg)
