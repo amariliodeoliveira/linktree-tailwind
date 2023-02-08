@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind - CSS</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amarilio de Oliveira - Linktree</title>
 
     <!-- Links -->
-    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="bg-gradient-to-br from-teal-900 to-teal-700">
+  <body class="bg-gradient-to-br from-dark-purple to-russian-violet">
     <main class="w-screen h-screen flex items-center justify-center">
-        <div class="flex flex-col items-center justify-center">
-
-            <!-- Avatar Circle -->
-            <div class="mt-4 w-56 h-56 flex items-center justify-center border-4 rounded-full border-amber-600">
-                <img class="rounded-full w-52 h-52" src="./src/assets/img/avatar.png" alt="">
-            </div>
-
-            <!-- Greetings Text -->
-            <div>
-                <h2 class="pt-5 text-2xl font-semibold text-amber-600">Prazer,</h2>
-                <h1 class="text-4xl font-semibold text-yellow-500">Amarilio de Oliveira!</h1>
-            </div>
-
-            <!-- Modal Container -->
-            <div class="mt-4 flex flex-col">
-                <a class="font-poppins ease-in-out duration-300 hover:scale-110 mx-4 mt-4 w-80 h-12 border-2 border-amber-600 rounded hover:border-yellow-500 bg-amber-600 hover:bg-yellow-500 text-base font-semibold text-teal-900 uppercase text-center p-2"
-                    role="button" href="https://parallax-website-omega.vercel.app/">Portfolio</a>
-
-                <a class="ease-in-out duration-300 hover:scale-110 mx-4 mt-4 w-80 h-12 border-2 border-amber-600 rounded hover:border-yellow-500 bg-amber-600 hover:bg-yellow-500 text-base font-semibold text-teal-900 uppercase text-center p-2"
-                    role="button" href="mailto:amariliodeoliveira@outlook.com">E-mail</a>
-            </div>
-
-            <!-- Social Container -->
-            <div class="flex mt-7 mb-1 grid-cols-3 gap-12">
-                <a class="ease-in-out duration-300 hover:scale-150" target="_blank"
-                    href="https://www.instagram.com/amariliodeoliveira/"><img src="./src/assets/img/instagram.svg"
-                        alt="Instagram"></a>
-                <a class="ease-in-out duration-300 hover:scale-150" target="_blank"
-                    href="https://www.linkedin.com/in/amariliodeoliveira/"><img src="./src/assets/img/linkedin.svg"
-                        alt="LinkedIn"></a>
-
-                <a class="ease-in-out duration-300 hover:scale-150" target="_blank"
-                    href="https://github.com/amariliodeoliveira"><img src="./src/assets/img/github.svg" alt="GitHub"></a>
-            </div>
+      <div class="flex flex-col items-center justify-center">
+        <!-- Avatar Circle -->
+        <div
+          class="mt-4 w-56 h-56 flex items-center justify-center border-4 rounded-full border-corn-flower"
+        >
+          <img
+            class="rounded-full w-52 h-52"
+            src="./src/assets/img/avatar.png"
+            alt=""
+          />
         </div>
-    </main>
-</body>
 
+        <!-- Greetings Text -->
+        <div>
+          <h2 class="pt-5 text-2xl font-semibold text-corn-flower">Prazer,</h2>
+          <h1 class="text-3xl font-semibold text-lavander">
+            Amarilio de Oliveira!
+          </h1>
+        </div>
+
+        <!-- Link Tree Container -->
+        <div class="mt-4 flex flex-col">
+          <a
+            class="font-poppins ease-in-out duration-300 hover:scale-110 mx-4 mt-4 w-80 h-12 border-2 border-corn-flower rounded hover:border-lavander bg-corn-flower hover:bg-lavander text-base font-semibold text-dark-purple uppercase text-center p-2"
+            role="button"
+            href="https://parallax-website-omega.vercel.app/"
+            >Portfolio</a
+          >
+
+          <a
+            class="ease-in-out duration-300 hover:scale-110 mx-4 mt-4 w-80 h-12 border-2 border-corn-flower rounded hover:border-lavander bg-corn-flower hover:bg-lavander text-base font-semibold text-dark-purple uppercase text-center p-2"
+            role="button"
+            href="mailto:amariliodeoliveira@outlook.com"
+            >E-mail</a
+          >
+        </div>
+
+        <!-- Social Container -->
+        <div class="flex mt-7 mb-1 grid-cols-3 gap-12">
+          <a
+            class="ease-in-out duration-300 hover:scale-150"
+            target="_blank"
+            href="https://www.instagram.com/amariliodeoliveira/"
+            ><img src="./src/assets/img/instagram.svg" alt="Instagram"
+          /></a>
+          <a
+            class="ease-in-out duration-300 hover:scale-150"
+            target="_blank"
+            href="https://www.linkedin.com/in/amariliodeoliveira/"
+            ><img src="./src/assets/img/linkedin.svg" alt="LinkedIn"
+          /></a>
+
+          <a
+            class="ease-in-out duration-300 hover:scale-150"
+            target="_blank"
+            href="https://github.com/amariliodeoliveira"
+            ><img src="./src/assets/img/github.svg" alt="GitHub"
+          /></a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
