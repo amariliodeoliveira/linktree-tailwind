@@ -1,15 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./index.html"],
+
   theme: {
     colors: {
-      'lavander': '#eeefff',
-      'corn-flower': '#7597de',
-      'blue-violet': '#695bae',
-      'russian-violet': '#2b1055',
-      'dark-purple': '#1c0522',
+      lavander: "#eeefff",
+      "corn-flower": "#7597de",
+      "blue-violet": "#695bae",
+      "russian-violet": "#2b1055",
+      "dark-purple": "#1c0522",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(-25%)" },
+          "100%": { transform: "translateX(25%)" },
+        },
+      },
+    },
   },
   plugins: [],
+
+  safelist: [{ pattern: /^(.*?)/ }],
 };
