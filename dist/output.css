@@ -9280,6 +9280,48 @@ body {
   animation: bounce 1s infinite;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.animate-slide-normal {
+  animation: slide 3s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.animate-slide-fast {
+  animation: slide 4s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.animate-slide-fastest {
+  animation: slide 5s ease-in-out infinite alternate;
+}
+
 .cursor-auto {
   cursor: auto;
 }
@@ -18711,6 +18753,10 @@ body {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-bg {
+  background-image: linear-gradient(-60deg, #1c0522 50%, #2b1055 50%);
 }
 
 .from-lavander {
